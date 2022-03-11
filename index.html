@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tela">
+    <div class="paragrafo">
+      <h1>Learn to code by</h1>
+      <h1> watching others</h1>
+      <p> See how experienced developers solve problems in real-time.</p>
+      <p> Watching scripted tutorials is great, </p>
+      <p> but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="dados">
+      <div class="botao-roxo">
+        <button> <span style="font-weight: 600;">Try it free 7 days</span>  then $20/mo. thereafter</button>
+      </div>
+      <div class="usuario" >
+        <input style="margin-top: 22px; "  type="text" id="nome" placeholder="   Nome: "><br>
+        <input type="text" id="sobrenome" placeholder="  Sobrenome:"><br>
+        <input type="text" id="email" placeholder="  E-mail:"><br>
+        <input type="text" id="senha" placeholder="  Senha:"><br>
+        <div class="botao-verde">
+          <button onclick="verificar()">Claim your free trial</button>
+          <p style="color: gray;">By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%);"> <strong> Terms and
+                Services</strong></span> </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

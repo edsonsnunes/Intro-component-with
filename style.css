@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+       
+}
+
+.paragrafo{
+    font-weight: 500;
+    color: white;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.tela{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 196px;
+
+    
+    
+}
+
+.dados{
+    display: grid;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+.botao-roxo{
+    padding-top: 10px;
+    padding-bottom: 17px;
+        
+}
+
+.botao-roxo button{
+    width: 439px;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 5px 1px 1px rgba(0, 0, 0, 0.247);
+
+}
+
+.usuario{
+    display: grid;
+    background-color: white;
+    width: 439px;
+    border-radius: 7px;
+    
+    
+}
+
+.usuario input{
+    width: 377px;
+    height: 35px;
+    border: 0.5px solid gray;
+    border-radius: 4px;
+    margin: auto;
+    cursor: pointer;
+    
+   
+}
+
+
+.botao-verde button{
+    width: 379px;
+    height: 42px;
+    border: 0px solid green;
+    border-radius: 7px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: 600;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.247);
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.botao-verde p {
+    padding-bottom: 20px;
+    
+    
+
+}
+
+.usuario p {
+    padding-top: 10px;
+    font-size: 7px;
+    text-align: center;
+}
