@@ -37,17 +37,24 @@
       <div class="botao-roxo">
         <button> <span style="font-weight: 600;">Try it free 7 days</span>  then $20/mo. thereafter</button>
       </div>
-      <div class="usuario" >
-        <input style="margin-top: 22px; "  type="text" id="nome" placeholder="   Nome: "><br>
-        <input type="text" id="sobrenome" placeholder="  Sobrenome:"><br>
-        <input type="text" id="email" placeholder="  E-mail:"><br>
-        <input type="text" id="senha" placeholder="  Senha:"><br>
+      <form class="usuario" >
+        
+        <input  style="margin-top: 22px; "  type="text" id="nome" placeholder="  Nome "><br>
+        <div id="res">
+           
+        </div>
+        <input type="text" id="sobrenome" placeholder="  Sobrenome"><br>
+        <div id="res">
+           
+        </div>
+        <input type="text" id="email" placeholder="  E-mail"><br>
+        <input type="text" id="senha" placeholder="  Senha"><br>
         <div class="botao-verde">
-          <button onclick="verificar()">Claim your free trial</button>
+          <input type="button" onclick="verificar()" value="Claim your free trial">
           <p style="color: gray;">By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%);"> <strong> Terms and
                 Services</strong></span> </p>
         </div>
-      </div>
+      </form>
     </div>
     <script src="script.js"></script>
 </body>

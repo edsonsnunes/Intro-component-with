@@ -9,6 +9,7 @@ body{
     background-image: url(images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     font-family: 'Poppins', sans-serif;
+    
        
 }
 
@@ -75,7 +76,7 @@ h1{
 .usuario input{
     width: 377px;
     height: 35px;
-    border: 0.5px solid gray;
+    border: 0.5px solid black;
     border-radius: 4px;
     margin: auto;
     cursor: pointer;
@@ -84,7 +85,7 @@ h1{
 }
 
 
-.botao-verde button{
+.botao-verde input{
     width: 379px;
     height: 42px;
     border: 0px solid green;
@@ -113,3 +114,21 @@ h1{
     font-size: 7px;
     text-align: center;
 }
+
+#res{
+    text-align: end;
+    font-size: 11px;
+    color: rgba(255, 0, 0, 0.781);
+    padding-right: 32px;
+   
+    
+}
+
+.normalinput{
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.invalidinput{
+    border: 0.5px solid red;
+}
+
