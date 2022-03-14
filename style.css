@@ -124,6 +124,31 @@ h1{
     
 }
 
+#res_1{
+    text-align: end;
+    font-size: 11px;
+    color: rgba(255, 0, 0, 0.781);
+    padding-right: 32px;
+   
+    
+}
+
+#res_2{
+    text-align: end;
+    font-size: 11px;
+    color: rgba(255, 0, 0, 0.781);
+    padding-right: 32px;
+   
+    
+}
+#res_3{
+    text-align: end;
+    font-size: 11px;
+    color: rgba(255, 0, 0, 0.781);
+    padding-right: 32px;
+   
+    
+}
 .normalinput{
     border: 1px solid rgb(3, 3, 3);
 }
